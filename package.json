@@ -15,6 +15,7 @@
         "laravel-nova": "^1.0"
     },
     "dependencies": {
+        "v-runtime-template": "https://github.com/jobcerto/v-runtime-template",
         "vue": "^2.5.0"
     }
 }

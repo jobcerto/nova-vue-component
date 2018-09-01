@@ -1,9 +1,9 @@
 <template>
-    <span>{{ field.value }}</span>
+	<vue-component-wrapper :field="field"></vue-component-wrapper>
 </template>
 
 <script>
-export default {
-    props: ['resourceName', 'field'],
-}
+	export default {
+		props: ['resourceName', 'field'],
+	}
 </script>

@@ -17,7 +17,6 @@ class FieldServiceProvider extends ServiceProvider
     {
         Nova::serving(function (ServingNova $event) {
             Nova::script('vue-component', __DIR__.'/../dist/js/field.js');
-            Nova::style('vue-component', __DIR__.'/../dist/css/field.css');
         });
     }
 

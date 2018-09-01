@@ -7089,6 +7089,10 @@ uuid@^3.0.1, uuid@^3.1.0, uuid@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
 
+"v-runtime-template@https://github.com/jobcerto/v-runtime-template":
+  version "1.5.2"
+  resolved "https://github.com/jobcerto/v-runtime-template#5fe381f52118b7db242f649a9100a94f8acb0b94"
+
 vali-date@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/vali-date/-/vali-date-1.0.0.tgz#1b904a59609fb328ef078138420934f6b86709a6"
