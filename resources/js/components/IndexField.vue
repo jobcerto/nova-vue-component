@@ -1,5 +1,5 @@
 <template>
-	<vue-component-wrapper :field="field"></vue-component-wrapper>
+	<vue-component-wrapper  :field="field"></vue-component-wrapper>
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-	<v-runtime-template :field="field" :template="field.value"></v-runtime-template>
+	<v-runtime-template  :field="field"  :template="field.value"></v-runtime-template>
 </template>
 <script>
 	import VRuntimeTemplate from "../interpreter.js";

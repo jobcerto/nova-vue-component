@@ -12,4 +12,14 @@ class VueComponent extends Field
      * @var string
      */
     public $component = 'vue-component';
+
+    public function props(array $props)
+    {
+      return $this->withMeta(['props' => $props]);
+    }
+
+    public function resource($resource)
+    {
+      return $this->withMeta(['resource' => $resource->model()]);
+    }
 }
